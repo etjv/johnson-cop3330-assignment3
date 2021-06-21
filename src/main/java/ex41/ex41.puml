@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ex41{
+    List<String> ListOfNames
+
+    GetNames()
+    PrintOutput()
+}
+
+
+class NameList{
+    SortNames()
+}
+
+ex41 o--> NameList
+@enduml

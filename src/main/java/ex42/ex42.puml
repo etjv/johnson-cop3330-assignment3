@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ex41{
+    List<Map<String, String> Records
+
+    GetRecords()
+    PrintOutput()
+}
+
+class Records{
+    RecordCreator()
+    SortRecords()
+}
+
+ex41 o--> Records
+@enduml
